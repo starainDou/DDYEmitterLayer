@@ -110,5 +110,33 @@ static inline CGFloat layerH(UIView *view) { return view.layer.bounds.size.heigh
  kCAEmitterLayerOldestLast 最后的出生的粒子 在最后面
  kCAEmitterLayerBackToFront 把后面的 放到上面
  kCAEmitterLayerAdditive 叠加
-
  */
+
+/**
+ emitterShape：发送形状的样式
+ 
+ kCAEmitterLayerPoint 点
+ kCAEmitterLayerLine 线
+ kCAEmitterLayerRectangle 矩形
+ kCAEmitterLayerCuboid 立方体
+ kCAEmitterLayerCircle 曲线
+ kCAEmitterLayerSphere 圆形
+ */
+
+/**
+ contents:粒子的内容
+ lifetime：存活时间
+ lifetimeRange：存活时间的范围
+ birthRate：每秒粒子生成的数量
+ emissionLatitude：散发的纬度（方向）——>弧度——>上下
+ emissionLongitude： 散发的经度（方向）——>弧度——>左右
+ velocity:发送的速度——>速度越快越远
+ velocityRange：发送速度的范围
+ xAcceleration; X轴的加速度
+ yAcceleration;Y轴的加速度
+ zAcceleration;Z轴的加速度
+ smissionRange：散发的范围——>弧度——>范围
+ name ：粒子的名字 ——>可以通过粒子的名字 找到粒子
+ */
+
+

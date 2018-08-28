@@ -18,6 +18,9 @@
 		A4A095612134130300F807FD /* fire2.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A0955F2134130300F807FD /* fire2.png */; };
 		A4A0956D2134130F00F807FD /* snow1.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A095672134130F00F807FD /* snow1.png */; };
 		A4A0956F213413EB00F807FD /* snow2.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A0956E213413EB00F807FD /* snow2.png */; };
+		A4A09572213512C100F807FD /* DDYEmitterBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A09571213512C100F807FD /* DDYEmitterBubble.m */; };
+		A4A09574213514FA00F807FD /* bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A09573213514FA00F807FD /* bubble.png */; };
+		A4A0957721351DEC00F807FD /* DDYEmitterPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = A4A0957621351DEC00F807FD /* DDYEmitterPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,11 @@
 		A4A0955F2134130300F807FD /* fire2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fire2.png; sourceTree = "<group>"; };
 		A4A095672134130F00F807FD /* snow1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow1.png; sourceTree = "<group>"; };
 		A4A0956E213413EB00F807FD /* snow2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow2.png; sourceTree = "<group>"; };
+		A4A09570213512C100F807FD /* DDYEmitterBubble.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDYEmitterBubble.h; sourceTree = "<group>"; };
+		A4A09571213512C100F807FD /* DDYEmitterBubble.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDYEmitterBubble.m; sourceTree = "<group>"; };
+		A4A09573213514FA00F807FD /* bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bubble.png; sourceTree = "<group>"; };
+		A4A0957521351DEC00F807FD /* DDYEmitterPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDYEmitterPoint.h; sourceTree = "<group>"; };
+		A4A0957621351DEC00F807FD /* DDYEmitterPoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDYEmitterPoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +90,7 @@
 				A4A0955F2134130300F807FD /* fire2.png */,
 				A4A095672134130F00F807FD /* snow1.png */,
 				A4A0956E213413EB00F807FD /* snow2.png */,
+				A4A09573213514FA00F807FD /* bubble.png */,
 				A4A0954921340DDF00F807FD /* AppDelegate.h */,
 				A4A0954A21340DDF00F807FD /* AppDelegate.m */,
 				A4A0954B21340DDF00F807FD /* LaunchScreen.storyboard */,
@@ -100,6 +109,10 @@
 				A4A0955821340EDF00F807FD /* DDYEmitterFire.m */,
 				A4A0955B21340EF600F807FD /* DDYEmitterSnow.h */,
 				A4A0955C21340EF600F807FD /* DDYEmitterSnow.m */,
+				A4A09570213512C100F807FD /* DDYEmitterBubble.h */,
+				A4A09571213512C100F807FD /* DDYEmitterBubble.m */,
+				A4A0957521351DEC00F807FD /* DDYEmitterPoint.h */,
+				A4A0957621351DEC00F807FD /* DDYEmitterPoint.m */,
 			);
 			path = DDYEmitterLayer;
 			sourceTree = "<group>";
@@ -161,6 +174,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4A09574213514FA00F807FD /* bubble.png in Resources */,
 				A4A0956D2134130F00F807FD /* snow1.png in Resources */,
 				A4A0955321340DDF00F807FD /* Info.plist in Resources */,
 				A4A0955221340DDF00F807FD /* LaunchScreen.storyboard in Resources */,
@@ -179,6 +193,8 @@
 			files = (
 				A4A0955921340EDF00F807FD /* DDYEmitterFire.m in Sources */,
 				A4A0955521340DDF00F807FD /* ViewController.m in Sources */,
+				A4A09572213512C100F807FD /* DDYEmitterBubble.m in Sources */,
+				A4A0957721351DEC00F807FD /* DDYEmitterPoint.m in Sources */,
 				A4A0955D21340EF600F807FD /* DDYEmitterSnow.m in Sources */,
 				A4A0955421340DDF00F807FD /* main.m in Sources */,
 				A4A0955121340DDF00F807FD /* AppDelegate.m in Sources */,

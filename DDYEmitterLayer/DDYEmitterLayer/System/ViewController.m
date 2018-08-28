@@ -1,6 +1,8 @@
 #import "ViewController.h"
 #import "DDYEmitterFire.h"
 #import "DDYEmitterSnow.h"
+#import "DDYEmitterBubble.h"
+#import "DDYEmitterPoint.h"
 
 #ifndef DDYTopH
 #define DDYTopH (self.navigationController.navigationBar.frame.size.height + [[UIApplication sharedApplication] statusBarFrame].size.height)
@@ -25,6 +27,8 @@
     [self.view setBackgroundColor:[UIColor whiteColor]];
     [self.view addSubview:[self btnY: 50 tag:100 title:@"Fire"]];
     [self.view addSubview:[self btnY:100 tag:101 title:@"Snow"]];
+    [self.view addSubview:[self btnY:150 tag:102 title:@"Bubble"]];
+    [self.view addSubview:[self btnY:200 tag:103 title:@"Bubble"]];
 }
 
 - (UIButton *)btnY:(CGFloat)y tag:(NSUInteger)tag title:(NSString *)title {
@@ -45,6 +49,10 @@
         [self.navigationController pushViewController:[[DDYEmitterFire alloc] init] animated:YES];
     } else if (sender.tag == 101) {
         [self.navigationController pushViewController:[[DDYEmitterSnow alloc] init] animated:YES];
+    } else if (sender.tag == 102) {
+        [self.navigationController pushViewController:[[DDYEmitterBubble alloc] init] animated:YES];
+    } else if (sender.tag == 103) {
+        [self.navigationController pushViewController:[[DDYEmitterPoint alloc] init] animated:YES];
     }
 }
 
