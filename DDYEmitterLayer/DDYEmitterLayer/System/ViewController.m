@@ -42,12 +42,12 @@
 
 - (void)handleBtn:(UIButton *)sender {
     if (sender.tag == 100) {
-        [self.navigationController pushViewController:[DDYEmitterFire new] animated:YES];
+        [self.navigationController pushViewController:[[DDYEmitterFire alloc] init] animated:YES];
     } else if (sender.tag == 101) {
-        [self.navigationController pushViewController:[DDYEmitterSnow new] animated:YES];
+        [self.navigationController pushViewController:[[DDYEmitterSnow alloc] init] animated:YES];
     }
 }
 
 @end
 
-/** 如果遇到方法不对或不好请告诉我 634778311 小菜一个 正在努力学习各种知识中 */
+/** [[DDYEmitterFire alloc] init] 不可用[DDYEmitterFire new]替代，原因自行测试 */
